@@ -4,9 +4,9 @@
 
 このサイトはYUI Appの公式サイトです。
 
-このサイトのリンク：https://nezuu2.github.io/Y.U.I-github.io/
+このサイトのリンク：https://nezuu2.github.io/YUI_web/
 
-このサイトで使わせていただいた素材：https://nezuu2.github.io/Y.U.I-github.io/materials-used.html
+このサイトで使わせていただいた素材：https://nezuu2.github.io/YUI_web/materials-used.html
 
 YUI AppのGithubサイト：https://github.com/morikentiger/YUI
 
