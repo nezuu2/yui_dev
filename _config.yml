@@ -1,2 +1,37 @@
+email: 'cbx400.masin@gmail.com'
+url: https://nezuu2.github.io/YUI_web/
+twitter_username: nezuu2
+github_username: nezuu2
+author: nezuu.mail@gmail.com
+
+markdown: kramdown
 plugins:
- - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-polyglot
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# pagination
+permalink: /:year/:month/
+pagination:
+  enabled: true
+  per_page: 12
+  sort_reverse: true
+  limit: 0
+  sort_field: 'date'
+  permalink: '/page/:num/'
+  title: ':title'
+  trail:
+    before: 2
+    after: 2
+
+# multilang
+languages: ['ja', 'ko', 'en']
+default_lang: 'ja'
+exclude_from_localization: ['javascript', 'images', 'css']
+parallel_localization: false
