@@ -127,6 +127,7 @@ a.tabs-button.black:hover {
 
   position:relative;
   bottom:10px;
+  border-radius: 22px;
 }
 
 .circle-shap {
@@ -423,6 +424,8 @@ a.button:hover {
   color: rgb(170, 170, 170);
   background: #ececec;
   float: none;
+  border-radius: 0px 15px;
+  padding: 3%;
 }
 a.button:active {
   background: #dbdbdb;
