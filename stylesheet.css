@@ -8,6 +8,15 @@ li {
   list-style: none;
 }
 
+.main {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .header {
   overflow: hidden;
   background-color: #ffffff;
@@ -32,15 +41,15 @@ li {
 
 nav ul {
   text-align: center;
-
   display: inline-flex;
   position: absolute;
   left: -1.5rem;
   top: 3.2rem;
+  overflow-x: auto;
 }
 
 nav li {
-  padding: 29px;
+  padding: 1.7rem;
 }
 
 a.tabs-button {
@@ -55,10 +64,13 @@ a.tabs-button:hover {
   color: rgba(82, 105, 141, 0.6);
   text-decoration:none;
   font-size: 1.6rem;
-  padding: 0px 15px;
+  padding: 0px 10px;
 
   background: #ececec;
   box-shadow: 11px 0;
+}
+a.tabs-button:active {
+  border-radius: 24px / 23px;
 }
 a.tabs-button.black {
   color: rgba(165, 177, 196, 0.596);
@@ -84,8 +96,8 @@ a.tabs-button.black:hover {
   background-color: #868686dc;
   color: #fff;
   z-index: 10;
-  height: 80px; 
-  padding: 40px;
+  padding: 36px;
+  overflow-x: auto;
 }
 
 .footer-logo {
@@ -129,6 +141,7 @@ a.tabs-button.black:hover {
 .text-background-circle.blue {
   background: linear-gradient(to right, blue, rgb(43, 153, 255), aqua);
   color: white;
+  cursor: pointer;
 }
 
 .box1 {
@@ -160,6 +173,9 @@ a.tabs-button.black:hover {
 .box29 p {
     padding: 15px 150px;
     margin: 0;
+}
+.box29 a {
+  margin: 0.1rem;
 }
 .box29 ol {
   text-align: left;
@@ -303,17 +319,21 @@ gray-out {
   align-items: center;
   position: relative;
   right: 20px;
+  border-radius: 20px / 20px;
 }
 .board p {
   color: black;
   margin: auto;
 }
 li-title {
+  color: #b10000;
   border-bottom: 2px solid #dd4b4b;
   font-size: 20px;
   background: rgba(255, 17, 0, 0.123);
   display: block;
   transition: all 200ms 0s ease-in;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 
   /**グラデーションが合わなかったから追加しなかった
   background: linear-gradient(to right, rgb(255, 0, 64), pink);
@@ -408,6 +428,7 @@ a.button:active {
   background: #dbdbdb;
   color: white;
   float: none;
+  border-radius: 24px / 23px;
 }
 a.button.black {
   color: rgb(151, 151, 151);
