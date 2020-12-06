@@ -380,13 +380,14 @@ gray-out {
 
 .board li {
   width: 500px;
-  height: 300px;
+  padding-bottom: 17px;
   background: rgba(0, 0, 0, 0.034);
   margin: 5px auto;
   align-items: center;
   position: relative;
   right: 20px;
   border-radius: 20px / 20px;
+  display: inline-grid;
 }
 
 .board p {
@@ -452,16 +453,10 @@ a.btn {
   border-bottom: 5px solid #3d9cf5;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   text-decoration:none;
-  padding: 4px;
-  border-radius: 24px / 23px;
+  padding: 4px 20px;
+  border-radius: 24px / 24px;
   transition: all 200ms 0s ease-out;
-}
-a.btn2 {
-  color: rgb(255, 255, 255);
-  background-color: #4e4e4e;
-  border-bottom: 5px solid #000000;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-  text-decoration:none;
+  font-size: 1rem;
 }
 a.btn--black:hover {
   margin-top: 3px;
@@ -475,7 +470,27 @@ a.btn--black:active {
   background: #00d9ff;
   border-bottom: 2px solid #9b9b9b;
 }
-a.btn--black2:hover {
+@media only screen and (min-width:600px) {
+  a.btn {
+    font-size: 5px;
+  }
+}
+@media only screen and (min-width:1800px) {
+  a.btn {
+    font-size: 18px;
+  }
+
+a.btn2 {
+  color: rgb(255, 255, 255);
+  background-color: #4e4e4e;
+  border-bottom: 5px solid #000000;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  text-decoration:none;
+  transition: all 300ms 0.01s ease-out;
+  padding: 0px 12px;
+  border-radius: 10px 10px;
+}
+a.btn2--black:hover {
   margin-top: 3px;
   color: rgba(51, 51, 51, 0.349);
   background: #ffffff;
@@ -519,7 +534,9 @@ a.button.black:active {
   transition: all 300ms 0s ease;
 }
 .copy-right:hover {
-  color: #c0c0c0
+  color: #c0c0c0;
+  position: relative;
+  bottom: 2px;
 }
 
 .hidden {
