@@ -95,7 +95,12 @@ li {
 nav {
   display: flex;
   width: 100%;
-  background: #222;
+  background: rgba(17, 17, 17, 0.918);
+  position: sticky;
+  top: 0px;
+  z-index: 1024;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(24px);
 }
 
 nav ul {
