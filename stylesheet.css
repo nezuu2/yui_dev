@@ -90,6 +90,7 @@ li {
   background: #111;
   transition: all 200ms 0s ease-out;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.301);
+  transform: translateZ(200px);
 }
 
 nav {
@@ -479,6 +480,7 @@ a.btn--black:active {
   a.btn {
     font-size: 18px;
   }
+}
 
 a.btn2 {
   color: rgb(255, 255, 255);
