@@ -87,10 +87,9 @@ li {
 .header a:hover {
   color: white;
   border-color: gray;
-  background: #111;
+  background-color: #111;
   transition: all 200ms 0s ease-out;
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.301);
-  transform: translateZ(200px);
 }
 
 nav {
@@ -297,7 +296,7 @@ gray-out {
 .box29 .box-title--blue {
   font-size: 1.2em;
   background: #001e57;
-  padding: 6px;
+  padding: 12px;
   text-align: center;
   color: #FFF;
   font-weight: bold;
