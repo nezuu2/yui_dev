@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>YUI公式サイト｜体験版プレイ中</title>
-    <link rel="stylesheet" href="stylesheet2.css">
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="stylesheet_chat.css">
     <link rel="icon" type="image/png" href="YUI-icon.png">
     
@@ -16,45 +16,13 @@
 <div class="main">
 <div style="background: rgb(131, 189, 255); color: rgb(31, 111, 202);"><h1>YUI APP体験版</h1><p>製品版は無料です</p></div>
 
-<img src="YUI-charactor.png" alt="" width="15%" style="position: absolute;">
+<!--<img src="YUI-charactor.png" alt="" width="15%" style="position: absolute;">-->
 
 <div id="filed-group">
 <!--画面-->
 <div id="field">
     <ul id="chat-ul"></ul>
 </div>
-
-<script src="https://riversun.github.io/chatux/chatux.min.js"></script>
-<script>
-    const chatux = new ChatUx();
-
-    //ChatUXの初期化パラメータ
- const initParam =
-        {
-            renderMode: 'auto',
-            api: {
-                //echo chat server
-                endpoint: 'http://localhost:8080/chat',
-                method: 'GET',
-                dataType: 'jsonp'
-            },
-            bot: {
-                botPhoto: 'https://riversun.github.io/chatbot/bot_icon_operator.png',
-                humanPhoto: null,
-                widget: {
-                    sendLabel: '送信',
-                    placeHolder: '何か話しかけてみてください'
-                }
-            },
-            window: {
-                title: 'エコーボット',
-                infoUrl: 'https://github.com/riversun/chatux'
-            }
-        };
-    chatux.init(initParam);
-    chatux.start(true);
-
-</script>
 
 <!--入力場所，送信ボタン-->
 <div id="input-field">
@@ -64,7 +32,7 @@
 </div>
 
 </div>
-<a href="javascript:history.back();" style="margin-left: 45%;">前のサイトに戻る</a>
+<a href="javascript:history.back();" style="margin-left: 45%;" class="btn btn--black">前のサイトに戻る</a>
 
 <div class="footer">
     <div class="footer-logo">Footer</div>
