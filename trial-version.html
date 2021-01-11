@@ -3,18 +3,18 @@
 
 <head>
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>YUI公式サイト｜体験版プレイ中</title>
     <link rel="stylesheet" href="stylesheet2.css">
     <link rel="stylesheet" href="stylesheet_chat.css">
     <link rel="icon" type="image/png" href="YUI-icon.png">
     
-    <script src="jquery.js"></script>
-    <script src="bootstrap.js"></script>
+    <script src="library/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
 <div class="main">
-<div style="background: rgb(131, 189, 255); color: rgb(68, 99, 134);"><h1>YUI APP体験版</h1><p>製品版は無料です</p></div>
+<div style="background: rgb(131, 189, 255); color: rgb(31, 111, 202);"><h1>YUI APP体験版</h1><p>製品版は無料です</p></div>
 
 <img src="YUI-charactor.png" alt="" width="15%" style="position: absolute;">
 
@@ -24,58 +24,36 @@
     <ul id="chat-ul"></ul>
 </div>
 
+<script src="https://riversun.github.io/chatux/chatux.min.js"></script>
 <script>
-//ロボットの返答内容
-const chat = [
-    'Hello ! Welcome to AI chat !',
-    'What is your name ?',
-    'How are you today ?',
-    [['Alright !'], ['Oh really!'], ['Ok!']]//ランダムな返答
-];
+    const chatux = new ChatUx();
 
-//ロボットの返信の合計回数（最初は0）
-//これを利用して、自分が送信ボタンを押したときの相手の返答を配列から指定する
-let chatCount = 0;
+    //ChatUXの初期化パラメータ
+ const initParam =
+        {
+            renderMode: 'auto',
+            api: {
+                //echo chat server
+                endpoint: 'http://localhost:8080/chat',
+                method: 'GET',
+                dataType: 'jsonp'
+            },
+            bot: {
+                botPhoto: 'https://riversun.github.io/chatbot/bot_icon_operator.png',
+                humanPhoto: null,
+                widget: {
+                    sendLabel: '送信',
+                    placeHolder: '何か話しかけてみてください'
+                }
+            },
+            window: {
+                title: 'エコーボット',
+                infoUrl: 'https://github.com/riversun/chatux'
+            }
+        };
+    chatux.init(initParam);
+    chatux.start(true);
 
-//画面への出力をする関数（valはメッセージ内容，personは誰が話しているか）
-function output(val, person) {
-    //中略
-    if(person === 'robot'){
-        //中略
-        chatCount++;
-    }
-}
-
-//自分がテキストを入力し、ボタンを押したときの関数
-function btnFunc() {
-    //中略
-    output(inputText.value, 'me');
-    //中略
-
-    //ロボットの送信の合計回数に応じて次の返信を指定
-    switch(chatCount) {
-        //もしロボットのトーク数が2個の時に送信ボタンが押されたら、
-        //自分の名前を含んだメッセージと、chat配列の2（3個目）が返信
-        case 2:
-            output('Hi, ' + inputText.value + ' !', 'robot');
-            setTimeout( ()=> {
-                output(chat[2], 'robot');
-            }, 2000);
-            break;
-
-        //もしロボットのトーク数が4個の時に送信ボタンが押されたら、
-        //chat配列の3（4個目）のランダム番目が返信
-        case 4:
-            output(chat[3][Math.floor(Math.random() * chat[3].length)], 'other');
-            break;
-    }
-}
-
-//最初にロボットから話しかけられる
-output(chat[0], 'robot');
-setTimeout( ()=> {
-    output(chat[1], 'robot');
-}, 2000);
 </script>
 
 <!--入力場所，送信ボタン-->
