@@ -191,10 +191,16 @@ a.tabs-button.black:active {
   border-radius: 22px;
 }
 
+.chat {
+  color:rgb(0, 71, 138);
+  border-radius: 22px;
+  margin: 3%;
+  box-shadow: 10px 10px #52c0ff96;
+}
+
 .circle-shap {
   border-radius: 22px;
 }
-
 .text-background-circle {
   background: lightgray;
   padding: 0% 4%;
@@ -204,17 +210,6 @@ a.tabs-button.black:active {
   background: linear-gradient(to right, blue, rgb(43, 153, 255), aqua);
   color: white;
   cursor: pointer;
-}
-
-.box1 {
-  padding: 0.5em 1em;
-  margin: 2em 0;
-  font-weight: bold;
-  border: solid 3px #000000;
-}
-.box1 p {
-  margin: 0; 
-  padding: 0;
 }
 
 .box29 {
@@ -505,16 +500,14 @@ a.button {
   transition: all 300ms 0.01s ease-out
 }
 a.button:hover {
-  color: rgb(156 156 156);
+  color: rgb(138, 138, 138);
   background: #ececec;
   float: none;
   border-radius: 0px 15px;
   padding: 3%;
 }
 a.button:active {
-  background: #dbdbdb;
-  color: white;
-  float: none;
+  color: rgb(163, 163, 163);
   border-radius: 24px / 23px;
 }
 a.button.black {
