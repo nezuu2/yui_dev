@@ -192,10 +192,11 @@ a.tabs-button.black:active {
 }
 
 .chat {
+  background: #52c0ff96;
   color:rgb(0, 71, 138);
   border-radius: 22px;
   margin: 3%;
-  box-shadow: 10px 10px #52c0ff96;
+  padding: 1.1% 1.5%;
 }
 
 .circle-shap {
