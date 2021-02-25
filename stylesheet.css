@@ -195,6 +195,29 @@ a.tabs-button.black:active {
   border-radius: 22px;
 }
 
+.popup {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background: black;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.content{
+  background: #fff;
+  padding: 30px;
+  width: 50%;
+}
+
+.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .chat {
   background: #52c0ff96;
   color:rgb(0, 71, 138);
@@ -222,7 +245,7 @@ a.tabs-button.black:active {
     margin-bottom: 3em;
     background: #f0f0f0;
     text-align: center;
-    border-radius: 20px / 20px;
+    border-radius: 10px;
     display: flexbox;
 }
 .box29 .box-title {
@@ -233,8 +256,8 @@ a.tabs-button.black:active {
     color: #FFF;
     font-weight: bold;
     letter-spacing: 0.05em;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .box29 p {
     padding: 15px 150px;
