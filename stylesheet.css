@@ -19,7 +19,7 @@ html {
     font-size: 14px;
   }
 }
-@media only screen and (min-width:1600px) {
+@media only screen and (max-width:1600px) {
   html,
   body {
     font-size: 14.5px;
@@ -121,6 +121,49 @@ nav li {
   padding: 1.0rem 1.7rem;
 }
 
+/*スマホ画面で例１のハンバーガーメニューの形にする*/
+@media screen and (max-width: 900px) {
+  nav {
+    background:rgb(68, 68, 68);
+    position: relative;
+  }
+  nav ul {
+    display: grid;
+    padding: 0px
+  }
+  nav li {
+    padding: 0px
+  }
+  .header-sub {
+    float: inline-end;
+    font-size: 19px;
+    padding: 0px 0px;
+    letter-spacing: 0.05em;
+    position: relative;
+    top: 8px;
+  }
+  .header a {
+    margin:0px;
+    padding:2px 100px;
+    position: relative;
+    top: 18px;
+    left: 0px;
+  }
+
+  .footer-list ul li {
+    display: grid;
+    padding: 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin:0px
+  }
+  a.tabs-button {
+    padding:0px;
+    margin:0px;
+  }
+}
+
 a.tabs-button {
   color: rgb(212 212 212);
   text-decoration:none;
@@ -136,9 +179,6 @@ a.tabs-button:hover {
   background: #39393b;
   box-shadow: 11px 0;
   padding: 0px 6.5px;
-}
-a.tabs-button:active {
-
 }
 a.tabs-button.black {
   color: rgba(158, 158, 158, 0.596);
