@@ -5,19 +5,20 @@
     <meta charset="UTF-8"/>
     <meta name="google-site-verification" content="iTWCKf0zKoACBYjgNElQz5ayYZK_jyprrEgUJXXqegM" />
     <meta name="description" content="YUI公式サイト">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
     <title>YUI公式サイト｜カウンセリングページ</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" type="image/png" href="YUI-icon.png">
     
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.js"
-      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous"></script>
+    <script src="library/jquery-3.5.1.min.js"></script>
+    <script src="popup.js"></script>
 </head>
 
 <body>
     <div class="header">
-      <div class="header-logo">カウンセリング</div>
+      <div class="header-logo"><img src="YUI-icon.png" width="50px">カウンセリング</div>
       <div class="header-sub">対話による勇気づけで人々を幸せに</div>
       <a href="contact-us.html">お問い合わせ</a>
     </div>
@@ -40,14 +41,22 @@
           <div class="box-title">カウンセリングについて</div>
           <img src="YUI-app-スクショ.png" alt="" width="150" class="left-picture circle-shap">
           <p font size="3" class="font-arialblack">
-            試験的に実装しています。<br>
-            It is implemented on a trial basis.
+            
           </p>
-          <a class="btn btn--black">　カウンセリングを受けに行く　</a>
+          <a id="button" class="btn btn--black">　月額サービスを登録する　</a>
+          <div class="popup">
+            <div class="content">
+                <p>利用規約 2021/02/26更新</p>
+                <h2>・</h2>
+                <div></div>
+                <a id="send" class="btn btn--black">アカウントを作成する</a>
+                <a id="close" class="btn btn--black">閉じる</a>
+            </div>
+        </div>
       </div>
 
       <div class="box29">
-        <div class="box-title">NEW! 現在新たに実装予定の機能</div>
+        <div class="box-title">現在新たに実装予定の機能</div>
         <ul class="credo">
           <li>１対１でカウンセラーとマッチングするシステム</li>
           <li>人々の自己実現を支援</li>
@@ -70,7 +79,7 @@
           <li><a href="contact-us.html" class="button">お問い合わせ</a></li>
           <li><a href="materials-used.html" class="button">使用した素材</a></li>
         </ul>
-        <a href="project-member.html" class="copy-right">© Project YUI</a>
+        <a href="project-member.html" class="copy-right">©nezuu2</a>
       </div>
     </div>
 </body>
