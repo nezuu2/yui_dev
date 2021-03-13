@@ -13,13 +13,13 @@ html {
     font-size: 10px;
   }
 }
-@media only screen and (min-width:1800px) {
+@media only screen and (min-width:1200px) {
   html,
   body {
     font-size: 14px;
   }
 }
-@media only screen and (min-width:1800px) {
+@media only screen and (min-width:1600px) {
   html,
   body {
     font-size: 14.5px;
@@ -237,7 +237,6 @@ a.tabs-button.black:active {
 .text-background-circle.blue {
   background: linear-gradient(to right, blue, rgb(43, 153, 255), aqua);
   color: white;
-  cursor: pointer;
 }
 
 .box29 {
@@ -245,7 +244,7 @@ a.tabs-button.black:active {
     margin-bottom: 3em;
     background: #f0f0f0;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px / 10px;
     display: flexbox;
 }
 .box29 .box-title {
