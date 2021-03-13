@@ -2,6 +2,7 @@
 挿入する。吹き出しの三角形は疑似要素を使用する。 */
 *{
     margin: 0;
+    text-align: center;
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
 }
