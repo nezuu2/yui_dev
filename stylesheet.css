@@ -53,6 +53,10 @@ li {
   background-color: #ffffff;
   color: rgb(58, 58, 58);
   height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 120rem;
+  width: calc(100% - 4rem);
 }
 
 .header-logo {
@@ -115,6 +119,10 @@ nav ul {
   margin: 0;
   padding: 3px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 115rem;
+  width: calc(100% - 8rem);
 }
 
 nav li {
@@ -129,10 +137,14 @@ nav li {
   }
   nav ul {
     display: grid;
-    padding: 0px
+    padding: 0px;
+    width: calc(100% - 2rem);
   }
   nav li {
     padding: 0px
+  }
+  .header-logo {
+    padding: 0px;
   }
   .header-sub {
     float: inline-end;
@@ -199,12 +211,13 @@ a.tabs-button.black:active {
   z-index: 10;
   padding: 36px;
   overflow-x: auto;
+  padding-left: calc(10% - 2rem);
+  padding-right: calc(10% - 2rem);
 }
 
 .footer-logo {
   font-size: 32px;
   float: left;
-
 }
 
 .footer-list {
@@ -240,6 +253,13 @@ a.tabs-button.black:active {
     padding: 0px;
     position: relative;
     left: 3px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding: 0px;
+    padding-left: calc(2% - 2rem);
+    padding-right: calc(2% - 2rem);
   }
 }
 
@@ -319,7 +339,6 @@ a.tabs-button.black:active {
 @media screen and (max-width: 900px) {
   .box29 p {
     padding: 0.3px;
-
   }
 }
 
