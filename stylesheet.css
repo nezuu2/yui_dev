@@ -551,7 +551,7 @@ a.link:hover {
   background-color: #3a4ad625;
 }
 
-@media only screen and (min-width:900px) {
+@media only screen and (max-width:900px) {
   a.btn {
     font-size: 5px;
   }
