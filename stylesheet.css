@@ -234,7 +234,6 @@ a.tabs-button.black:active {
   bottom:10px;
   border-radius: 22px;
 }
-
 @media screen and (max-width: 900px) {
   .footer-list ul {
     display: grid;
@@ -315,6 +314,13 @@ a.tabs-button.black:active {
 }
 .box29 ol {
   text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  .box29 p {
+    padding: 0.3px;
+
+  }
 }
 
 .before-credo {
