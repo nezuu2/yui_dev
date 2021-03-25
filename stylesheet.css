@@ -254,6 +254,11 @@ a.tabs-button.black:active {
     position: relative;
     left: 3px;
   }
+  .left-picture {
+    float: unset;
+    position: relative;
+    left: 10rem;
+  }
 }
 @media screen and (max-width: 1200px) {
   .footer {
@@ -546,9 +551,14 @@ a.link:hover {
   background-color: #3a4ad625;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:900px) {
   a.btn {
     font-size: 5px;
+  }
+  .left-picture {
+    float: unset;
+    position: relative;
+    left: 0rem;
   }
 }
 @media only screen and (min-width:1600px) {
