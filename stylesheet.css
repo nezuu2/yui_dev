@@ -235,6 +235,15 @@ a.tabs-button.black:active {
   border-radius: 22px;
 }
 
+@media screen and (max-width: 900px) {
+  .footer-list ul {
+    display: grid;
+    padding: 0px;
+    position: relative;
+    left: 3px;
+  }
+}
+
 .popup {
   display: none;
   height: 100vh;
@@ -567,14 +576,15 @@ a.button {
   color: #fff;
   text-decoration:none;
   border-radius: 0px 15px;
-  transition: all 300ms 0.01s ease-out
+  transition: all 300ms 0.01s ease-out;
+  margin: 0%;
+  padding: 3%;
 }
 a.button:hover {
   color: rgb(138, 138, 138);
   background: #ececec;
   float: none;
   border-radius: 0px 15px;
-  padding: 3%;
 }
 a.button:active {
   color: rgb(163, 163, 163);
