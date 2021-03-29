@@ -414,7 +414,7 @@ gray-out {
 }
 .box29 .box-title--yellow {
   font-size: 1.2em;
-  background: rgba(0, 0, 0, 0.103);
+  background: rgba(255, 255, 255, 0.103);
   padding: 6px;
   text-align: center;
   color: rgb(255, 230, 0);
