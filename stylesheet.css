@@ -12,11 +12,17 @@ html {
   body {
     font-size: 10px;
   }
+  .header-img {
+    width: 100%;
+  }
 }
 @media only screen and (min-width:1200px) {
   html,
   body {
     font-size: 14px;
+  }
+  .header-img {
+    width: 50%;
   }
 }
 @media only screen and (max-width:1600px) {
@@ -480,6 +486,36 @@ gray-out {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
 
   position:relative;
+}
+@media only screen and (max-width: 900px) {
+  .left-and-right-handed-drawing {
+    display: grid;
+    padding: 0px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+  .left-and-right-handed-drawing p {
+  }
+  .left-and-right-handed-drawing img {
+    margin: auto;
+    position: relative;
+    top: 110px;
+    transition: all 300ms 0s ease-in;
+  }
+  .left-and-right-handed-drawing:hover img {
+    width: 18em;
+  }
+  .left-and-right-handed-drawing li {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 18em;
+    border: solid 0px #000000;
+    background-color:rgb(221, 221, 221);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
+    position:relative;
+  }
 }
 
 .board li {
