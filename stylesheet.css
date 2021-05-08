@@ -31,6 +31,12 @@ html {
     font-size: 14.5px;
   }
 }
+
+a.fab {
+  text-decoration:none;
+  color: unset;
+}
+
 p {
   font-size: 1.3rem;
 }
