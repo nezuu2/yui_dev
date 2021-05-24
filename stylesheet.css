@@ -201,8 +201,8 @@ a.tabs-button:hover {
   text-decoration:none;
 
   background: #39393b;
-  box-shadow: 11px 0;
-  padding: 0px 6.5px;
+  box-shadow: 8.5px 0;
+  padding: 0px 2.5px;
 }
 a.tabs-button.black {
   color: rgba(158, 158, 158, 0.596);
@@ -344,7 +344,7 @@ a.tabs-button.black:active {
     border-top-right-radius: 10px;
 }
 .box29 p {
-    padding: 15px 150px;
+    /*padding: 15px 150px;*/
 }
 .box29 a {
   margin: 0.1rem;
@@ -355,7 +355,7 @@ a.tabs-button.black:active {
 
 @media screen and (max-width: 900px) {
   .box29 p {
-    padding: 0.3px;
+    /*padding: 0.3px;*/
   }
 }
 
@@ -436,8 +436,8 @@ gray-out {
   letter-spacing: 0.05em;
 
   background-color: #e74c3c;
-  animation: bg-color 10s infinite;
-  -webkit-animation: bg-color 10s infinite;
+  animation: bg-color 0s infinite;
+  -webkit-animation: bg-color 0s infinite;
 }
 @-webkit-keyframes bg-color {
   0% { background-color: #ffae95; }
@@ -546,9 +546,9 @@ li-title {
   border-bottom: 2px solid #dd4b4b;
   background: rgba(255, 17, 0, 0.123);
   display: block;
-  transition: all 200ms 0s ease-in;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  transition: all 200ms 0s ease-in;
 
   /**グラデーションが合わなかったから追加しなかった
   background: linear-gradient(to right, rgb(255, 0, 64), pink);
@@ -638,7 +638,7 @@ a.btn2 {
   border-bottom: 5px solid #000000;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   text-decoration:none;
-  transition: all 300ms 0.01s ease-out;
+  transition: all 300ms 0s ease-out;
   padding: 0px 12px;
   border-radius: 10px 10px;
 }
@@ -653,7 +653,7 @@ a.button {
   color: #fff;
   text-decoration:none;
   border-radius: 0px 15px;
-  transition: all 300ms 0.01s ease-out;
+  transition: all 300ms 0s ease-out;
   margin: 0%;
   padding: 3%;
 }
@@ -726,7 +726,7 @@ a.button.black:active {
   font-weight: bold; /* 文字の太さ */
   overflow: hidden;
   opacity: 0;        /* 文字を非表示 */
-  transition: 0.2s;  /* 文字が表示・非表示される時のスピード */
+  transition: 0s;  /* 文字が表示・非表示される時のスピード */
 }
 /** チェックボックスにチェックが入った時の、テキストの処理 **/
 .disp-box input:checked ~ .text {
