@@ -43,7 +43,7 @@ p {
 
 body {
   font-family: "Avenir Next";
-  background-color: #ffffff;
+  background: #f0f0f0;
   margin: 0;
 }
 
@@ -62,9 +62,10 @@ li {
 
 .header {
   overflow: hidden;
-  background-color: #ffffff;
+  background: #ffffff;
   color: rgb(58, 58, 58);
   height: 90px;
+  padding: 0px calc(8.8% - 4rem);
   margin-left: auto;
   margin-right: auto;
   max-width: 120rem;
@@ -317,10 +318,11 @@ a.tabs-button.black:active {
   color: white;
 }
 
+/* box1に変更予定 */
 .box29 {
     margin: 2.3em 0.5rem;
     margin-bottom: 3.8em;
-    background: #f0f0f0;
+    background: white;
     text-align: center;
     border-radius: 10px / 10px;
     display: flexbox;
@@ -607,9 +609,7 @@ a.link:hover {
 }
 a.btn {
   color: rgb(255, 255, 255);
-  background-color: #62c5ff;
-  border-bottom: 5px solid #3d9cf5;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  background-color: #0481ff;
   text-decoration:none;
   padding: 4px 20px;
   border-radius: 24px / 24px;
@@ -619,14 +619,7 @@ a.btn {
 a.btn--black:hover {
   margin-top: 3px;
   color: rgb(255, 255, 255);
-  background: #32cfff;
-  border-bottom: 2px solid #9b9b9b;
-}
-a.btn--black:active {
-  margin-top: 3px;
-  color: rgb(244, 251, 255);
-  background: #00d9ff;
-  border-bottom: 2px solid #9b9b9b;
+  background: #0071e3;
 }
 
 a.btn2 {
@@ -655,8 +648,7 @@ a.button {
   padding: 3%;
 }
 a.button:hover {
-  color: rgb(138, 138, 138);
-  background: #ececec;
+  background: #9e9e9e;
   float: none;
   border-radius: 0px 15px;
 }
