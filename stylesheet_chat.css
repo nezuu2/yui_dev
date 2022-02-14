@@ -54,24 +54,24 @@ h1{
     font-size: 14px;
     color: rgb(0, 0, 0);
     box-sizing: border-box;
-    border: 1px solid #ff80ee;
+    border: 1px solid rgb(69, 126, 47);
     border-radius: 4px;
     padding-left: 10px;
     margin: auto 10px;
 }
 #chat-input:focus{
-    border: 1.3px solid #ff73ec;
+    border: 1.3px solid rgb(69, 126, 47);
     outline: 0;
 }
 /*送信ボタン*/
-#chat-button{
+.chat-button{
     cursor: pointer;
     height: 25px;
     width: 24%;
     margin: auto ;
     margin-right: 7%; 
     font-size: 13px;
-    background: #ff73f8f8;
+    background: #268f34f8;
     color: white;
     display: block;
     /*デフォルトのボーダーを消す*/
@@ -79,9 +79,9 @@ h1{
     box-sizing: border-box;
     border-radius: 6.5px;
 }
-#chat-button:focus{
+.chat-button:focus{
     outline: 0;
-    background: #ee99ff;
+    background: #2ea03df8;
 }
 
 #chat-ul{
