@@ -1,32 +1,33 @@
 $(function(){
     $('#ver').text('version beta0.2');
 
-	$("#chat-button").click(function() {
+	$(".chat-button").click(function() {
 		// 値を取得
         const str = $('input:text[id="chat-input"]').val();
-        $('#chat').prepend('<ul id="chat add" class="chat">' + str + '</ul>');
+        //自分が送ったメッセージを表示
+        $('#field').prepend('<ul id="chat" class="chat">' + str + '</ul>');
 
         if (str == 'こんにちは' || str == 'こんばんは' || str == 'おはよう') {
-            $('#chat').prepend('<ul id="chat add" class="chat">' + str + '</ul>');
+            $('#field').prepend('<ul id="chat" class="chat">' + str + '</ul>');
         } else if (str == 'Before') {
-            $('#chat').prepend('<ul id="chat add" class="chat">After</ul>');
+            $('#field').prepend('<ul id="chat" class="chat">After</ul>');
         } else if (str == 'test') {
-            $('#chat').prepend('<p id="chat add" class="chat">test</p>');
+            $('#field').prepend('<p id="chat" class="chat">test</p>');
         } else if (str == 'YUIちゃん') {
-            $('#chat').prepend('<ul id="chat add" class="chat">はい どういたしましたか？</ul>');
+            $('#field').prepend('<ul id="chat" class="chat">はい どういたしましたか？</ul>');
         } else if (str == 'お話できる？') {
-            $('#chat').prepend('<ul id="chat add" class="chat">ごめんなさい。体験版だと製品版よりあまりうまくお話できないの…<br>ごめんね💦。</ul>');
+            $('#field').prepend('<ul id="chat" class="chat">ごめんなさい。体験版だと製品版よりあまりうまくお話できないの…<br>ごめんね💦。</ul>');
         } else if (str == 'アプリをダウンロードしたい') {
-            $('#chat').prepend('<ul id="chat add" class="chat">ありがとうございます!!<br>こちらからぜひダウンロードしてください</ul><a href="https://play.google.com/store/apps/details?id=com.websarva.wings.android.yui" class="btn btn--black">アプリをダウンロード</a>');
+            $('#field').prepend('<ul id="chat" class="chat">ありがとうございます!!<br>こちらからぜひダウンロードしてください</ul><a href="https://play.google.com/store/apps/details?id=com.websarva.wings.android.yui" class="btn btn--black">アプリをダウンロード</a>');
         } else if (str == '気に入った') {
-            $('#chat').prepend('<ul id="chat add" class="chat">ありがとうございます!<br>よければ製品版でもお話してくださいね★。</ul><a href="https://play.google.com/store/apps/details?id=com.websarva.wings.android.yui" class="btn btn--black">アプリをダウンロード</a>');
+            $('#field').prepend('<ul id="chat" class="chat">ありがとうございます!<br>よければ製品版でもお話してくださいね★。</ul><a href="https://play.google.com/store/apps/details?id=com.websarva.wings.android.yui" class="btn btn--black">アプリをダウンロード</a>');
         } else if (str == 'Can you english typing?') {
-            $('#chat').prepend('<ul id="chat add" class="chat">No, sorry.<br>I can only this engish typing.</ul>');
+            $('#field').prepend('<ul id="chat" class="chat">No, sorry.<br>I can only this engish typing.</ul>');
         } else if (str == 'Can you talk to me?') {
-            $('#chat').prepend('<ul id="chat add" class="chat">No, sorry.<br>Becouse is I cant understand it will english.</ul>');
+            $('#field').prepend('<ul id="chat" class="chat">No, sorry.<br>Becouse is I cant understand it will english.</ul>');
         }
          else {
-            $('#chat').prepend('<ul id="chat add" class="chat">？</ul>');
+            $('#field').prepend('<ul id="chat" class="chat">？</ul>');
         }
     });
 
@@ -45,11 +46,11 @@ $(function(){
         rec.start() // 認識を開始します
     });
 
-    $(function speech(text) {
+    $('.chat-button').click(function() {
         var u = new SpeechSynthesisUtterance();
-        u.text = document.querySelector('.input-text').value; // 発話する内容を指定する
-        u.lang = 'ja-JP'; // 言語を指定する
-        u.rate = 1.0; // 発話速度を指定する
+        u.text = $('input:text[id="chat-input"]').val(); // 発話する内容を指定する
+        u.lang = 'ja_JP'; // 言語を指定する
+        u.rate = 1.1; // 発話速度を指定する
         speechSynthesis.speak(u); // 喋らせる
-    });
+      });
 });

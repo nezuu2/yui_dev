@@ -14,8 +14,8 @@
 </head>
 
 <body style="background: rgb(49, 70, 95);">
-<div class="main">
-<div style="background: rgb(131, 189, 255); color: rgb(31, 111, 202);">
+<main>
+<div style="background: rgba(131, 189, 255, 0.952); color: rgb(31, 111, 202); backdrop-filter: blur(2px);">
   <h1>WEBAPP YUI</h1>
   <a id="ver">version error</a>
 </div>
@@ -25,18 +25,18 @@
 <div id="filed-group">
   <!--画面-->
   <div id="field">
-      <ul id="chat" class="chat">以下のテキストボックスから<br>なにか入力してみてください。</ul>
+      <div class="chat">以下のテキストボックスから<br>なにか入力してみてください。</div>
   </div>
 
   <!--入力場所，送信ボタン-->
-  <div id="input-field">
-      <input type="text" id="chat-input">
-      <input type="button" value="送信" id="chat-button">
-      <button class="circle-shap" id="mic-button">🎤</button>
-  </div>
+  <form id="input-field">
+    <input type="text" id="chat-input">
+    <input type="button" value="送信" class="chat-button">
+    <button class="text-background-circle" id="mic-button">🎤</button>
+  </form>
 </div>
 
-</div>
+</main>
 <a href="javascript:history.back();" class="btn btn--black">前のサイトに戻る</a>
 
 <div class="footer">
@@ -51,7 +51,7 @@
         <li><a href="contact-us.html" class="button">お問い合わせ</a></li>
         <li><a href="materials-used.html" class="button">使用した素材</a></li>
       </ul>
-      <a href="project-member.html" class="copy-right">© Project YUI</a>
+      <a href="project-member.html" class="text-button">© Project YUI</a>
     </div>
   </div>
 </body>
