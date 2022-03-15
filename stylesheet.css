@@ -568,7 +568,7 @@ li-title:hover {
 
 chapter {
   position: absolute;
-  margin-left: -12rem;
+  margin-left: -1.5rem;
   transition: all 280ms 0s ease-in;
   color: green;
 }
