@@ -365,10 +365,10 @@ a.tabs-button.black:active {
   margin-bottom: .5rem;
   text-align: left;
   list-style: unset;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .credo a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .credo.list-style-none li {
   text-align: center;
@@ -498,8 +498,6 @@ gray-out {
     bottom: 0;
     right: 0;
   }
-  .left-and-right-handed-drawing p {
-  }
   .left-and-right-handed-drawing img {
     margin: auto;
     position: relative;
@@ -612,7 +610,7 @@ a.btn {
   padding: 5px 20px;
   border-radius: 24px / 24px;
   transition: all 200ms 0s ease-out;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 a.btn--black:hover {
   margin-top: 3px;
