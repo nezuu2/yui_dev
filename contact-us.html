@@ -5,8 +5,11 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>YUI公式サイト｜お問い合わせページ</title>
-    <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" type="image/png" href="YUI-icon.png">
+    <!-- 自作CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
     
 <body>
@@ -26,6 +29,7 @@
           <li><a href="history.html" class="menu tabs-button">歴史</a></li>
           <li><a href="news.html" class="menu tabs-button">NEWS</a></li>
           <li><a href="faq.html" class="menu tabs-button">FAQ</a></li>
+          <li><a href="#" class="menu tabs-button">PrivacyPolicy</a></li>
         </ul>
     </nav>
 
@@ -33,15 +37,49 @@
       <div class="box29 black">
           <div class="box-title--blue">お問い合わせフォーム / Contact us</div>
           <address>
-                  <p>YUIに関するお問合せは以下リンクへお願い致します。</p>
-                  <a href="https://forms.gle/qecoDeMvVBTNPWew5">フォームへお問い合わせする</a>
-                  <p></p>
-
-                  <p>Twitterへお問い合わせする</p>
-                  <a href="https://twitter.com/Project_YUI816">@Project_YUI816</a>
-                  <p>公式メールへお問い合わせする</p>
-                  <a href="mailto:projectyui816@gmail.com">projectyui816@gmail.com</a>
+            <p>YUIに関するお問合せは以下リンクへお願い致します。</p>
+            <a href="https://forms.gle/qecoDeMvVBTNPWew5">フォームへお問い合わせする</a>
+            <p></p>
+            <p>Twitterへお問い合わせする</p>
+            <a href="https://twitter.com/Project_YUI816">@Project_YUI816</a>
+            <p>公式メールへお問い合わせする</p>
+            <a href="mailto:projectyui816@gmail.com">projectyui816@gmail.com</a>
           </address>
+          <br>
+          <from class="align-items-center">
+            <div class="col-auto row">
+
+              <label class="form-label">- 返信先のEmail -</label>
+              <input type="email" id="mail" placeholder="Enter email" class="form-control"><br>
+
+              <input class="form-control" list="datalistOptions" id="subject" placeholder="件名 / Subject">
+              <datalist id="datalistOptions">
+                <option value="ウェブサイト 【YUI公式サイト】">
+                <option value="アプリ 【対話型AI|YUI】">
+                <option value="ソーシャルメディア 【Twitter,YouTube等】">
+                <option value="ご意見/ご要望">
+                <option value="プロジェクトへの参加志願">
+              </datalist>
+              <label class="form-label">その他ご要件の場合、そのまま入力してください。</label>
+
+              <textarea id="description" placeholder="Enter description/概要" wrap="hard" rows="4" class="form-control"></textarea><br>
+            </div>
+            <button type="submit" class="btn btn-primary">この内容を送信する</button><br>
+            <span id="time"></span>
+          </from>
+
+          <script type="text/javascript">
+              window.onload = function showTime() {
+                // 実体化
+                var now = new Date();
+ 
+                var text = "送信日 " + now.getFullYear() + "." + now.getMonth() + "." + now.getDate();
+                document.getElementById("time").innerHTML = text;
+              }
+          </script>
+          <script type="text/json">
+            
+          </script>
       <!--
             <ul>  
               <li>*メールアドレス</li>
@@ -64,6 +102,7 @@
           <li><a href="project-member.html" class="button">Projectメンバー</a></li>
           <li><a href="index.html" class="button black">お問い合わせ</a></li>
           <li><a href="materials-used.html" class="button">使用した素材</a></li>
+          <li><a href="privacy-policy.html" class="button">PrivacyPolicy</a></li>
         </ul>
       </div>
     </div>
