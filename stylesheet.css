@@ -328,8 +328,7 @@ a.tabs-button.black:active {
   color: white;
 }
 
-/* box1に変更予定 */
-.box29 {
+.box1 {
     margin: 2.3em 0.5rem;
     margin-bottom: 3.8em;
     background: white;
@@ -337,8 +336,8 @@ a.tabs-button.black:active {
     border-radius: 10px / 10px;
     display: flexbox;
 }
-.box29 .box-title {
-    font-size: 1.5em;
+.box1 .box-title {
+    font-size: 4.4em;
     background: #59aff5;
     padding: 6px;
     text-align: center;
@@ -348,20 +347,93 @@ a.tabs-button.black:active {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.box29 p {
+.box1 p {
     /*padding: 15px 150px;*/
 }
-.box29 a {
+.box1 a {
   margin: 0.1rem;
 }
-.box29 ol {
+.box1 ol {
   text-align: left;
 }
 
 @media screen and (max-width: 900px) {
-  .box29 p {
+  .box1 p {
     /*padding: 0.3px;*/
   }
+}
+/* 色付きbox */
+.box1.black {
+  background:#f0f0f0;
+  border: solid 2px #ffffff;
+}
+.box1.white {
+  background:#292929;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+}
+.box1.wood {
+  background-image: url("木目模様2（茶色）.jpg");
+  background-color: rgba(0, 0, 0, 0.781);
+  background-blend-mode:lighten;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+}
+
+.box1 .box-title--black {
+  font-size: 4.4em;
+  background: #222222;
+  padding: 6px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box1 .box-title--blue {
+  font-size: 1.2em;
+  background: #001e57;
+  padding: 12px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box1 .box-title--yellow {
+  font-size: 1.2em;
+  background: rgba(255, 255, 255, 0.103);
+  padding: 6px;
+  text-align: center;
+  color: rgb(255, 230, 0);
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box1 .box-title--news {
+  font-size: 1.2em;
+  padding: 15px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+
+  background-color: #e74c3c;
+  animation: bg-color 0s infinite;
+  -webkit-animation: bg-color 0s infinite;
+}
+@-webkit-keyframes bg-color {
+  0% { background-color: #ffae95; }
+  20% { background-color: #a9f5ff; }
+  40% { background-color:#89d0ff; }
+  60% { background-color: #3498db; }
+  80% { background-color: #001e57; }
+  100% { background-color: #e74c3c; }
+}
+@keyframes bg-color {
+  0% { background-color: #ffae95; }
+  20% { background-color: #a9f5ff; }
+  40% { background-color:#89d0ff; }
+  60% { background-color: #3498db; }
+  80% { background-color: #001e57; }
+  100% { background-color: #e74c3c; }
 }
 
 .before-credo {
@@ -390,79 +462,6 @@ a.tabs-button.black:active {
 gray-out {
   color: #646464;
   font-size: 99%;
-}
-
-.box29.black {
-  background:#f0f0f0;
-  border: solid 2px #ffffff;
-}
-.box29.white {
-  background:#292929;
-  color: #ffffff;
-  border: solid 2px #ffffff;
-}
-.box29.wood {
-  background-image: url("木目模様2（茶色）.jpg");
-  background-color: rgba(0, 0, 0, 0.781);
-  background-blend-mode:lighten;
-  color: #ffffff;
-  border: solid 2px #ffffff;
-}
-
-.box29 .box-title--black {
-  font-size: 1.2em;
-  background: #222222;
-  padding: 6px;
-  text-align: center;
-  color: #FFF;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-}
-.box29 .box-title--blue {
-  font-size: 1.2em;
-  background: #001e57;
-  padding: 12px;
-  text-align: center;
-  color: #FFF;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-}
-.box29 .box-title--yellow {
-  font-size: 1.2em;
-  background: rgba(255, 255, 255, 0.103);
-  padding: 6px;
-  text-align: center;
-  color: rgb(255, 230, 0);
-  font-weight: bold;
-  letter-spacing: 0.05em;
-}
-.box29 .box-title--news {
-  font-size: 1.2em;
-  padding: 15px;
-  text-align: center;
-  color: #FFF;
-  font-weight: bold;
-  letter-spacing: 0.05em;
-
-  background-color: #e74c3c;
-  animation: bg-color 0s infinite;
-  -webkit-animation: bg-color 0s infinite;
-}
-@-webkit-keyframes bg-color {
-  0% { background-color: #ffae95; }
-  20% { background-color: #a9f5ff; }
-  40% { background-color:#89d0ff; }
-  60% { background-color: #3498db; }
-  80% { background-color: #001e57; }
-  100% { background-color: #e74c3c; }
-}
-@keyframes bg-color {
-  0% { background-color: #ffae95; }
-  20% { background-color: #a9f5ff; }
-  40% { background-color:#89d0ff; }
-  60% { background-color: #3498db; }
-  80% { background-color: #001e57; }
-  100% { background-color: #e74c3c; }
 }
 
 .left-and-right-handed-drawing {
