@@ -120,7 +120,7 @@ main {
 nav {
   display: flex;
   width: 100%;
-  background: rgba(17, 17, 17, 0.918);
+  background: linear-gradient(70deg, #907641,#856d3e,#8d733f,#fff);
   position: sticky;
   top: 0px;
   z-index: 1024;
@@ -191,7 +191,7 @@ nav li {
 }
 
 a.tabs-button {
-  color: rgb(212 212 212);
+  color: white;
   text-decoration:none;
   font-size:3.3rem;
   margin-top:1px;
@@ -222,7 +222,7 @@ a.tabs-button.black:active {
 }
 
 .footer {
-  background-color: rgb(75, 72, 69);
+  background-color: #000;
   color: #fff;
   z-index: 10;
   padding: 36px;
