@@ -47,6 +47,10 @@ body {
   margin: 0;
 }
 
+.header-img {
+  width: 100%;
+}
+
 li {
   list-style: none;
   font-size: 1.23rem;
@@ -136,7 +140,7 @@ nav li {
 }
 
 /*スマホ画面で例１のハンバーガーメニューの形にする*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   nav {
     background:rgb(68, 68, 68);
     position: relative;
@@ -183,7 +187,7 @@ nav li {
 a.tabs-button {
   color: rgb(212 212 212);
   text-decoration:none;
-  font-size: 1.3rem;
+  font-size:3.3rem;
 
   display: flex;
   transition: all 300ms 0s ease-out;
@@ -588,7 +592,7 @@ a.link:hover {
   background-color: #3a4ad625;
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:800px) {
   a.btn {
     font-size: 5px;
   }
