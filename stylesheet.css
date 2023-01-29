@@ -120,7 +120,7 @@ main {
 nav {
   display: flex;
   width: 100%;
-  background: linear-gradient(70deg, #907641,#856d3e,#8d733f,#fff);
+  background: linear-gradient(90deg, #a17d35,#9b7b3d,#91743a,#fff, #8d733f);
   position: sticky;
   top: 0px;
   z-index: 1024;
