@@ -51,6 +51,10 @@ body {
   width: 100%;
 }
 
+.width_backgounrd {
+  padding:0% calc(0% - 8rem);
+}
+
 li {
   list-style: none;
   font-size: 1.23rem;
