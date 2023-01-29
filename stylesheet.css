@@ -390,7 +390,7 @@ a.tabs-button.black:active {
   letter-spacing: 0.05em;
 }
 .box1 .box-title--blue {
-  font-size: 1.2em;
+  font-size: 4.4em;
   background: #001e57;
   padding: 12px;
   text-align: center;
@@ -399,7 +399,7 @@ a.tabs-button.black:active {
   letter-spacing: 0.05em;
 }
 .box1 .box-title--yellow {
-  font-size: 1.2em;
+  font-size: 4.4em;
   background: rgba(255, 255, 255, 0.103);
   padding: 6px;
   text-align: center;
@@ -408,7 +408,7 @@ a.tabs-button.black:active {
   letter-spacing: 0.05em;
 }
 .box1 .box-title--news {
-  font-size: 1.2em;
+  font-size: 4.4em;
   padding: 15px;
   text-align: center;
   color: #FFF;
