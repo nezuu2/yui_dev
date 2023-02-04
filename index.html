@@ -19,6 +19,8 @@
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
       crossorigin="anonymous"></script>
+
+    <script src="header&footer.js"></script>
 </head>
 
 <body>
@@ -31,23 +33,14 @@
     -->
     <nav class="navbar navbar-light bg-light fixed-top">
         <ul>
-          <!-- 
-          <li><a href="https://play.google.com/store/apps/details?id=com.websarva.wings.android.yui" class="menu tabs-button">アプリ</a></li>
-          <li><a href="counseling.html" class="menu tabs-button">カウンセリング</a></li>
-          <li><a href="javascript:alert('YouTubeアカウントは製作予定です。');" class="menu tabs-button black">YouTube</a></li>
-          <li><a href="https://twitter.com/Project_YUI816" class="menu tabs-button" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-          <li><a href="https://twitter.com/kuro                 moriken" class="menu tabs-button" target="_blank" rel="noopener noreferrer">開発者のTwitter</a></li>
-           -->
+           <!-- タイトル -->
+          <li><a href="index.html" class="menu-active tabs-button" style="font-size:5rem;display:-moz-inline-grid;justify-content:center;">
+            <img src="yui_単体.png" style="width:6.3rem;height:6.3rem;">YUI育成ポータルサイト</a>
+          </li>
           
-          <li><a href="index.html" class="menu-active tabs-button" style="font-size:5rem;display:-moz-inline-grid;justify-content:center;"><img src="yui_単体.png" style="width:6.3rem;height:6.3rem;">YUI育成ポータルサイト</a></li>
-          
-          <span style="white-space:nowrap;display:inline-flex;justify-content:center;">
-            <li><a href="project-member.html" class="menu tabs-button">YUIについて</a></li>
-            <li><a href="history.html" class="menu tabs-button">歴史</a></li>
-            <li><a href="news.html" class="menu tabs-button">NEWS</a></li>
-            <li><a href="contact-us.html" class="menu tabs-button">育成相談窓口</a></li>
+          <span id="header" style="white-space:nowrap;display:inline-flex;justify-content:center;">
+            <!-- header&footer.jsで記載：一括編集の為 -->
           </span>
-          
         </ul>
     </nav>
 
@@ -129,15 +122,8 @@
     <div class="footer">
       <!-- <div class="footer-logo"></div> -->
       <div class="footer-list">
-        <ul>
-          <li><a href="will.html" class="button">志</a></li>
-          <li><a href="catch-copy.html" class="button">キャッチコピー</a></li>
-          <li><a href="credo.html" class="button">クレド</a></li>
-          <li><a href="project-member.html" class="button">Projectメンバー</a></li>
-          <li><a href="history.html" class="button">歴史</a></li>
-          <li><a href="contact-us.html" class="button">育成相談窓口</a></li>
-          <li><a href="materials-used.html" class="button">使用した素材</a></li>
-          <li><a href="privacy-policy.html" class="button">PrivacyPolicy</a></li>
+        <ul id="footer">
+          <!-- header&footer.jsで記載：一括編集の為 -->
         </ul>
         <div name="auther">
           <a href="project-member.html" class="text-button">©nezuu2 & Projectメンバー</a>
