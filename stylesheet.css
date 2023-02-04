@@ -214,6 +214,7 @@ a.tabs-button.black:active {
   padding:5px;
   overflow-x: auto;
   max-width:100%;
+  justify-content: center;
 }
 
 .footer-logo {
@@ -225,12 +226,15 @@ a.tabs-button.black:active {
   justify-items: center;
   margin: 0 0 0 1em;
   max-width:100%;
+  white-space: normal;
+  display:inline-flexbox;
 }
 
 .footer-list ul {
   padding: 0px;
   display: flex;
   table-layout:fixed;
+  justify-content: center;
 }
 
 .footer-list li {
@@ -251,6 +255,7 @@ a.tabs-button.black:active {
   bottom:10px;
   border-radius: 22px;
 }
+
 @media screen and (max-width: 900px) {
   .left-picture {
     float: unset;
