@@ -1,4 +1,18 @@
 $(document).ready(function(){
+    
+    $('#footer_content').append('<!-- <div class="footer-logo"></div> -->',
+                                '<div class="footer-list">',
+                                '<ul id="footer"><!-- header&footer.jsで記載：一括編集の為 --></ul>',
+                                '<div id="auther"><a href="project-member.html" class="text-button">©nezuu2 & Projectメンバー</a><a href="project-member.html" class="text-button">Projectリーダー: 森田健太</a>',
+                                '<div id="social-media" style="position:relative;top:10px;font-size:17px;">',
+                                '<a href="https://twitter.com/share?url=https://nezuu2.github.io/YUI_web/" class="fab fa-twitter fa-lg"></a>',
+                                '<a href="https://instagram.com" class="fab fa-instagram fa-lg"></a>',
+                                '<a href="https://linevoom.line.me/" class="fab fa-line fa-lg text-button"></a>',
+                                '<a href="privacy-policy.html" class="text-button">プライバシーポリシー</a>',
+                                '</div>',
+                                '</div>',
+                                '</div>');
+
     $('#header').append('<li><a href="project-member.html" class="menu tabs-button">YUIについて</a></li>',
                         '<li><a href="#" class="menu tabs-button">創始者もりけん。</a></li>',
                         '<li><a href="history.html" class="menu tabs-button">歴史</a></li>',
