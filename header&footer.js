@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $('#header').append('<li><a href="project-member.html" class="menu tabs-button">YUIについて</a></li>',
-            '<li><a href="#" class="menu tabs-button">創始者もりけん。</a></li>',
-            '<li><a href="history.html" class="menu tabs-button">歴史</a></li>',
-            '<li><a href="news.html" class="menu tabs-button">NEWS</a></li>',
-            '<li><a href="contact-us.html" class="menu tabs-button">育成相談窓口</a></li>');
+                        '<li><a href="#" class="menu tabs-button">創始者もりけん。</a></li>',
+                        '<li><a href="history.html" class="menu tabs-button">歴史</a></li>',
+                        '<li><a href="news.html" class="menu tabs-button">NEWS</a></li>',
+                        '<li><a href="contact-us.html" class="menu tabs-button">育成相談窓口</a></li>');
 
 {/* <li><a href="https://play.google.com/store/apps/details?id=com.websarva.wings.android.yui" class="menu tabs-button">アプリ</a></li>
     <li><a href="counseling.html" class="menu tabs-button">カウンセリング</a></li>
@@ -12,10 +12,10 @@ $(document).ready(function(){
     <li><a href="https://twitter.com/kuromoriken" class="menu tabs-button" target="_blank" rel="noopener noreferrer">開発者のTwitter</a></li> */}
     
     $('#footer').append('<li><a href="project-member.html" class="menu tabs-button">YUIについて</a></li>',
-            '<li><a href="#" class="menu tabs-button">創始者もりけん。</a></li>',
-            '<li><a href="history.html" class="menu tabs-button">歴史</a></li>',
-            '<li><a href="news.html" class="menu tabs-button">NEWS</a></li>',
-            '<li><a href="contact-us.html" class="menu tabs-button">育成相談窓口</a></li>');
+                        '<li><a href="#" class="menu tabs-button">創始者もりけん。</a></li>',
+                        '<li><a href="history.html" class="menu tabs-button">歴史</a></li>',
+                        '<li><a href="news.html" class="menu tabs-button">NEWS</a></li>',
+                        '<li><a href="contact-us.html" class="menu tabs-button">育成相談窓口</a></li>');
 
 {/* <li><a href="will.html" class="button">志</a></li>
     <li><a href="catch-copy.html" class="button">キャッチコピー</a></li>
