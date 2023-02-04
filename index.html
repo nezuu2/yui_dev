@@ -9,7 +9,7 @@
 
     <title>YUI育成ポータルサイト</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="icon" type="image/png" href="YUI-icon.png">
+    <link rel="icon" type="image/png" href="yui_単体.png">
 
     <link href="library/bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="library/fontawesome-free-5.15.3-web/css/all.min.css" rel="stylesheet">
@@ -22,23 +22,32 @@
 </head>
 
 <body>
+    <!-- 
     <div class="header">
       <div class="header-logo"><img src="YUI-icon.png" width="50px">YUI育成ポータルサイト</div>
       <div class="header-sub">対話による勇気づけで人々を幸せに</div>
       <a href="contact-us.html">お問い合わせ</a>
     </div>
-    <nav>
+    -->
+    <nav class="navbar navbar-light bg-light fixed-top">
         <ul>
-          <li><a href="index.html" class="menu-active tabs-button">ホーム</a></li>
+          <!-- 
           <li><a href="https://play.google.com/store/apps/details?id=com.websarva.wings.android.yui" class="menu tabs-button">アプリ</a></li>
           <li><a href="counseling.html" class="menu tabs-button">カウンセリング</a></li>
           <li><a href="javascript:alert('YouTubeアカウントは製作予定です。');" class="menu tabs-button black">YouTube</a></li>
           <li><a href="https://twitter.com/Project_YUI816" class="menu tabs-button" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-          <li><a href="https://twitter.com/kuromoriken" class="menu tabs-button" target="_blank" rel="noopener noreferrer">開発者のTwitter</a></li>
-          <li><a href="history.html" class="menu tabs-button">歴史</a></li>
-          <li><a href="news.html" class="menu tabs-button">NEWS</a></li>
-          <li><a href="contact-us.html" class="menu tabs-button">育成相談窓口</a></li>
-          <li><a href="privacy-policy.html" class="menu tabs-button">PrivacyPolicy</a></li>
+          <li><a href="https://twitter.com/kuro                 moriken" class="menu tabs-button" target="_blank" rel="noopener noreferrer">開発者のTwitter</a></li>
+           -->
+          
+          <li><a href="index.html" class="menu-active tabs-button" style="font-size:3.4rem;display:inline-flex;"><img src="yui_単体.png" width="7%" height="7%">YUI育成ポータルサイト</a></li>
+          
+          <span style="white-space:nowrap;display:inline-flex;padding-right:30px;align-items:center;">
+            <li><a href="project-member.html" class="menu tabs-button">YUIについて</a></li>
+            <li><a href="history.html" class="menu tabs-button">歴史</a></li>
+            <li><a href="news.html" class="menu tabs-button">NEWS</a></li>
+            <li><a href="contact-us.html" class="menu tabs-button">育成相談窓口</a></li>
+          </span>
+          
         </ul>
     </nav>
 
@@ -118,7 +127,7 @@
     </div>
 
     <div class="footer">
-      <div class="footer-logo">Footer</div>
+      <div class="footer-logo"></div>
       <div class="footer-list">
         <ul>
           <li><a href="will.html" class="button">志</a></li>
@@ -137,7 +146,7 @@
           <div name="social-media" style="position:relative;top:10px">
             <a href="https://twitter.com/share?url=https://nezuu2.github.io/YUI_web/" class="fab fa-twitter fa-lg"></a>
             <a href="https://instagram.com" class="fab fa-instagram fa-lg"></a>
-            <a href="https://linevoom.line.me/" class="fab fa-line fa-lg"></a>
+            <a href="https://linevoom.line.me/" class="fab fa-line fa-lg text-button"></a>
             <a href="privacy-policy.html" class="text-button">プライバシーポリシー</a>
           </div>
         </div>
