@@ -227,7 +227,7 @@ a.tabs-button:hover {
   color: rgb(255, 255, 255);
   text-decoration:none;
 
-  text-shadow: 0 0 30px rgba(0, 0, 0, 0.808);
+  text-shadow: 0 0 12px rgb(0, 0, 0);
   text-shadow: 0 0 30px rgba(192, 176, 34, 0.856);
   padding: 0px 2.5px;
 }
