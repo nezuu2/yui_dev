@@ -39,29 +39,30 @@ html {
 a.fab {
   text-decoration:none;
   color: unset;
-  font-size:2em;
+  font-size:3em;
+  user-select:none
 }
 a.fab:hover {
   animation-name: test;
-  animation-duration:1s;
+  animation-duration:1.1s;
   animation-fill-mode:forwards;
   opacity:1;
 }
 @keyframes test {
   20%{
-    font-size:2.5em;
+    font-size:250%;
     }
   40%{
-    font-size:2.0em;
+    font-size:260%;
   }
   50%{
-    font-size:2.0em;
+    font-size:330%;
   }
   80%{
-    font-size:3.0em;
+    font-size:350%;
   }
   100%{
-    font-size:2.5em;
+    font-size:300%;
     transform: rotate(1turn)
     }
   }
