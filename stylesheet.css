@@ -345,16 +345,12 @@ a.tabs-button.black:active {
 }
 .box1 a {
   margin: 0.1rem;
+  font-size:2.5em;
 }
 .box1 ol {
   text-align: left;
 }
 
-@media screen and (max-width: 900px) {
-  .box1 p {
-    /*padding: 0.3px;*/
-  }
-}
 /* 色付きbox */
 .box1.black {
   background:#f0f0f0;
