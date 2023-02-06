@@ -41,13 +41,13 @@
       </ul>
   </nav>
 
-    <div class="main">
+    <main>
       <div class="box1 black">
-          <div class="box-title--blue">育成相談窓口 / Contact us</div>
-          <address>
-            <p>YUIに関するお問合せは下のフォームにご記載ください。</p>
+        <p><br><br><br></p>
+        <address>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOVszMThpZpurgKGLcpR6msQz7LMZECl3oVb8twxnRf_-J4w/viewform?embedded=true" width="640" height="1393" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
             <p></p>
+            <br><section id="time" style="font-size:1.4em;"></section><br>
             <p>Twitterへお問い合わせする</p>
             <a href="https://twitter.com/Project_YUI816">@Project_YUI816</a>
             <p></p>
@@ -61,12 +61,9 @@
                 // 実体化
                 var now = new Date();
  
-                var text = "送信日 " + now.getFullYear() + "." + now.getMonth() + "." + now.getDate();
+                var text = "送信日(現在) " + now.getFullYear() + "." + now.getMonth() + "." + now.getDate();
                 document.getElementById("time").innerHTML = text;
               }
-          </script>
-          <script type="text/json">
-            
           </script>
       <!--
             <ul>  
@@ -78,6 +75,7 @@
       <a href="" class="btn btn--black">　投稿　</a>
       --> 
       </div>
+    </main>
 
     <div class="footer">
       <!-- <div class="footer-logo"></div> -->
