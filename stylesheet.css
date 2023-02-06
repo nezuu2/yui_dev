@@ -343,9 +343,12 @@ a.tabs-button.black:active {
 .box1 p {
     /*padding: 15px 150px;*/
 }
-.box1 a {
+.box1 address a {
   margin: 0.1rem;
   font-size:2.5em;
+}
+.box1 a {
+  font-size:103%;
 }
 .box1 ol {
   text-align: left;
