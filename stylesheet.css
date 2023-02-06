@@ -22,7 +22,7 @@ html {
 @media only screen and (min-width:1200px) {
   html,
   body {
-    font-size: 14px;
+    font-size: 13.5px;
   }
   .header-img {
     width: 50%;
@@ -32,7 +32,7 @@ html {
 @media only screen and (min-width:1600px) and (max-width:1600px) {
   html,
   body {
-    font-size: 14.5px;
+    font-size: 13.5px;
   }
 }
 
@@ -79,6 +79,9 @@ body {
   font-family: "Avenir Next";
   background: #f0f0f0;
   margin: 0;
+  flex-wrap:warp;
+  word-wrap: break-word;
+  overflow-wrap:break-word;
 }
 
 .header-img {
@@ -119,6 +122,7 @@ main {
   margin-right: auto;
   max-width: 120rem;
   width: calc(100% - 4rem);
+  flex-wrap:wrap;
 }
 
 .header-logo {
@@ -270,6 +274,7 @@ a.tabs-button.black:active {
 .footer-list ul {
   padding: 0px;
   display: flex;
+  flex-wrap:wrap;
   table-layout:fixed;
   justify-content: center;
 }
@@ -365,6 +370,7 @@ a.tabs-button.black:active {
     text-align: center;
     border-radius: 10px / 10px;
     display: flexbox;
+    flex-wrap:wrap;
 }
 .box1 .box-title {
     font-size: 4.4em;
