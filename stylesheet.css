@@ -39,7 +39,7 @@ html {
 a.fab {
   text-decoration:none;
   color: unset;
-  font-size:3em;
+  font-size:2em;
   user-select:none;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
