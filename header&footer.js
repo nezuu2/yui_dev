@@ -14,7 +14,7 @@ $(document).ready(function(){
                                 '</div>');
 
     $('#header').append('<li><a href="faq.html" class="menu tabs-button">YUIについて</a></li>',
-                        '<li><a href="#" class="menu tabs-button">創始者もりけん。</a></li>',
+                        '<li><a href="moriken.html" class="menu tabs-button">創始者もりけん。</a></li>',
                         '<li><a href="project-member.html" class="menu tabs-button">メンバー</a></li>',
                         '<li><a href="history.html" class="menu tabs-button">歴史</a></li>',
                         '<li><a href="news.html" class="menu tabs-button">NEWS</a></li>',
@@ -26,8 +26,9 @@ $(document).ready(function(){
     <li><a href="https://twitter.com/Project_YUI816" class="menu tabs-button" target="_blank" rel="noopener noreferrer">Twitter</a></li>
     <li><a href="https://twitter.com/kuromoriken" class="menu tabs-button" target="_blank" rel="noopener noreferrer">開発者のTwitter</a></li> */}
     
-    $('#footer').append('<li class="footer-button"><a href="project-member.html">YUIについて</a></li>',
-                        '<li class="footer-button"><a href="#">創始者もりけん。</a></li>',
+    $('#footer').append('<li class="footer-button"><a href="faq.html">YUIについて</a></li>',
+                        '<li class="footer-button"><a href="moriken.html">創始者もりけん。</a></li>',
+                        '<li class="footer-button"><a href="project-member.html">メンバー</a></li>',
                         '<li class="footer-button"><a href="history.html">歴史</a></li>',
                         '<li class="footer-button"><a href="news.html">NEWS</a></li>',
                         '<li class="footer-button"><a href="contact-us.html">育成相談窓口</a></li>');
