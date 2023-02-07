@@ -14,7 +14,7 @@ $(document).ready(function(){
                                 '</div>');
 
     $('#header').append('<li><a href="faq.html" class="menu tabs-button">YUIについて</a></li>',
-                        '<li><a href="moriken.html" class="menu tabs-button">創始者もりけん。</a></li>',
+                        '<li><a href="https://haoumoriken.studio.site/" class="menu tabs-button">創始者もりけん。</a></li>',
                         '<li><a href="project-member.html" class="menu tabs-button">メンバー</a></li>',
                         '<li><a href="history.html" class="menu tabs-button">歴史</a></li>',
                         '<li><a href="news.html" class="menu tabs-button">NEWS</a></li>',
