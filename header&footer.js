@@ -14,11 +14,7 @@ $(document).ready(function(){
                                 '</div>');
 
     $('#header').append('<li><a href="faq.html" class="menu tabs-button">YUIについて</a></li>',
-<<<<<<< HEAD
                         '<li><a href="https://haoumoriken.studio.site/" class="menu tabs-button">創始者もりけん。</a></li>',
-=======
-                        '<li><a href="https://nezuu2.github.io/yui_dev/" class="menu tabs-button">創始者もりけん。</a></li>',
->>>>>>> 84496813248b5eda42fba4e161014f628b5dc202
                         '<li><a href="project-member.html" class="menu tabs-button">メンバー</a></li>',
                         '<li><a href="history.html" class="menu tabs-button">歴史</a></li>',
                         '<li><a href="news.html" class="menu tabs-button">NEWS</a></li>',
