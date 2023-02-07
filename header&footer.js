@@ -27,7 +27,7 @@ $(document).ready(function(){
     <li><a href="https://twitter.com/kuromoriken" class="menu tabs-button" target="_blank" rel="noopener noreferrer">開発者のTwitter</a></li> */}
     
     $('#footer').append('<li class="footer-button"><a href="faq.html">YUIについて</a></li>',
-                        '<li class="footer-button"><a href="moriken.html">創始者もりけん。</a></li>',
+                        '<li class="footer-button"><a href="https://haoumoriken.studio.site/">創始者もりけん。</a></li>',
                         '<li class="footer-button"><a href="project-member.html">メンバー</a></li>',
                         '<li class="footer-button"><a href="history.html">歴史</a></li>',
                         '<li class="footer-button"><a href="news.html">NEWS</a></li>',
