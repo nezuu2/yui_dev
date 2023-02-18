@@ -28,11 +28,17 @@ html {
     width: 50%;
   }
 }
-/* ※イコールじゃなくて比較の意味 */
+/* ※min,max-widthはイコールという意味ではない */
+/* min-width,max-widthどちらにも適用する 要はmax-widthだけにすればPC対応。 */
 @media only screen and (min-width:1600px) and (max-width:1600px) {
   html,
   body {
     font-size: 13.5px;
+  }
+}
+@media only screen and (max-width:1600px) {
+  .pc-only {
+    display:none;
   }
 }
 
