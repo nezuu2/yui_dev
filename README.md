@@ -10,7 +10,7 @@ YUI AppのGithubサイト：https://github.com/morikentiger/YUI
 
 <!-- # Badges -->
 
-[![Version](https://img.shields.io/badge/version-v0.1.3-00c3ee.svg?style=flat-square)]()
+[![Version](https://img.shields.io/badge/version-v1.0.2-00c3ee.svg?style=flat-square)]()
 
 <!-- CREATED_BY_LEADYOU_README_GENERATOR -->
 
@@ -27,6 +27,6 @@ github of YUI-App：https://github.com/morikentiger/YUI
 
 <!-- # Badges -->
 
-[![Version](https://img.shields.io/badge/version-v0.1.3-00c3ee.svg?style=flat-square)]()
+[![Version](https://img.shields.io/badge/version-v1.0.2-00c3ee.svg?style=flat-square)]()
 
 <!-- CREATED_BY_LEADYOU_README_GENERATOR -->
